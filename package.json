@@ -1,0 +1,11 @@
+{
+  "name": "aircraft-import",
+  "version": "1.0.0",
+  "description": "Parses aircrafts export from BAZL and imports the aircrafts into a Firebase database.",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^2.4.2",
+    "node-fetch": "^1.6.3",
+    "xlsx": "^0.9.6"
+  }
+}
