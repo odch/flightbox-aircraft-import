@@ -25,7 +25,10 @@ var COLUMNS = [
     {
         address: 'N',
         header: 'Mtom (Typecertificated Model)',
-        firebaseKey: 'mtow'
+        firebaseKey: 'mtow',
+        normalize: function(value) {
+            return parseInt(value, 10)
+        }
     }
 ]
 
